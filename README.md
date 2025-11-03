@@ -26,21 +26,14 @@ Website ini saya buat untuk menjelaskan tentang UMKM Nyah Nur & King Jum
 
 ## 📸 Preview
 
-> [Home](https://faizaldwia.github.io/nyah-nur/assets/img/preview/about.png)
-
-> [About](https://faizaldwia.github.io/nyah-nur/assets/img/preview/about.png)
-
-> [Menu](https://faizaldwia.github.io/nyah-nur/assets/img/preview/menu.png)
-
-> [Spesial](https://faizaldwia.github.io/nyah-nur/assets/img/preview/spesial.png)
-
-> [Gallery](https://faizaldwia.github.io/nyah-nur/assets/img/preview/gallery.png)
-
-> [Penjual](https://faizaldwia.github.io/nyah-nur/assets/img/preview/penjual.png)
-
-> [Kontak](https://faizaldwia.github.io/nyah-nur/assets/img/preview/kontak.png)
-
-> [Footer](https://faizaldwia.github.io/nyah-nur/assets/img/preview/footer.png)
+![Home](https://faizaldwia.github.io/nyah-nur/assets/img/preview/about.png)
+![About](https://faizaldwia.github.io/nyah-nur/assets/img/preview/about.png)
+![Menu](https://faizaldwia.github.io/nyah-nur/assets/img/preview/menu.png)
+![Spesial](https://faizaldwia.github.io/nyah-nur/assets/img/preview/spesial.png)
+![Gallery](https://faizaldwia.github.io/nyah-nur/assets/img/preview/gallery.png)
+![Penjual](https://faizaldwia.github.io/nyah-nur/assets/img/preview/penjual.png)
+![Kontak](https://faizaldwia.github.io/nyah-nur/assets/img/preview/kontak.png)
+![Footer](https://faizaldwia.github.io/nyah-nur/assets/img/preview/footer.png)
 
 ---
 
