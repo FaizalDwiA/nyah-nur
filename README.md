@@ -1,38 +1,48 @@
-# Takoyaki & Pempek Nyah Nur
+# 🚀 Website Nyah Nur & King Jum
 
-Selamat datang di **Takoyaki & Pempek Nyah Nur** — tempat di mana cita rasa Jepang bertemu dengan kelezatan khas Palembang.  
-Kami menghadirkan hidangan takoyaki yang lembut di dalam, renyah di luar, serta pempek gurih dengan kuah cuko khas yang menggoda.
-
-## 🌟 Tentang Kami
-Takoyaki & Pempek Nyah Nur berdiri dengan semangat menghadirkan camilan berkualitas dengan bahan-bahan pilihan.  
-Kami percaya bahwa makanan bukan hanya soal rasa, tapi juga soal kebahagiaan di setiap gigitan.
-
-## 📜 Menu Andalan
-- **Takoyaki Original** — lembut, gurih, dengan topping khas
-- **Takoyaki Keju** — rasa creamy yang memanjakan
-- **Pempek Kapal Selam** — lengkap dengan telur di dalam
-- **Pempek Lenjer** — cocok untuk camilan atau hidangan keluarga
-- **Pempek Adaan** — gurih dan nikmat
-
-## 🛠️ Teknologi Website
-Website profil ini dibangun menggunakan:
-- **HTML5** untuk struktur konten
-- **CSS3** untuk tampilan yang menarik
-- **JavaScript** untuk interaksi dinamis
-- Responsif dan ramah di perangkat mobile
-
-## 📍 Lokasi
-📌 [Google Maps](https://maps.google.com/) *(Link dapat disesuaikan dengan lokasi usaha)*  
-Alamat: *Jl. Contoh No. 123, Kota Anda*
-
-## 📞 Kontak
-- **WhatsApp:** [Hubungi Kami](https://wa.me/)
-- **Instagram:** [@nyahnur_takoyaki_pempek](https://instagram.com/)
-- **Facebook:** [Takoyaki & Pempek Nyah Nur](https://facebook.com/)
-
-## 📷 Galeri
-Temukan foto-foto menu dan kegiatan kami di media sosial untuk melihat betapa menggugah selera sajian kami.
+Website ini saya buat untuk menjelaskan tentang UMKM Nyah Nur & King Jum
 
 ---
 
-✨ *"Takoyaki Jepang, Pempek Palembang — Rasa Bersatu di Lidah Anda!"* ✨
+## 🧠 Tech Stack
+
+`HTML` · `CSS` · `JavaScript`
+
+---
+
+## ✨ Fitur
+
+- Home
+- About
+- Menu
+- Specials
+- Gallery
+- Penjual
+- Kontak
+
+---
+
+## 📸 Preview
+
+> [🌐 Demo Live](https://username.github.io/nama-proyek)
+> [Home](https://username.github.io/nama-proyek)
+> [About](https://username.github.io/nama-proyek)
+> [Menu](https://username.github.io/nama-proyek)
+> [Spesial](https://username.github.io/nama-proyek)
+> [Gallery](https://username.github.io/nama-proyek)
+> [Penjual](https://username.github.io/nama-proyek)
+> [Kontak](https://username.github.io/nama-proyek)
+> [Footer](https://username.github.io/nama-proyek)
+
+---
+
+## 🧑‍💻 Author
+
+**Faizal** — Programmer yang suka suka
+[GitHub](https://github.com/username) · [LinkedIn](#) · [Portfolio](#)
+
+---
+
+## 📜 License
+
+Faizal Dwi Al Farizi © 2025
