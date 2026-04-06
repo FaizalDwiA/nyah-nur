@@ -968,138 +968,6 @@
 			}
 		}
 
-		/* ===== LIGHTBOX ===== */
-		.gallery-item {
-			cursor: zoom-in;
-		}
-
-		.gallery-item::after {
-			content: '🔍';
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%) scale(0);
-			font-size: 2rem;
-			background: rgba(255, 255, 255, 0.85);
-			width: 56px;
-			height: 56px;
-			border-radius: 50%;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			transition: transform .25s ease;
-			z-index: 2;
-		}
-
-		.gallery-item:hover::after {
-			transform: translate(-50%, -50%) scale(1);
-		}
-
-		#lightbox {
-			display: none;
-			position: fixed;
-			inset: 0;
-			background: rgba(0, 0, 0, 0.92);
-			z-index: 9999;
-			align-items: center;
-			justify-content: center;
-			padding: 20px;
-		}
-
-		#lightbox.active {
-			display: flex;
-		}
-
-		#lightbox img {
-			max-width: 90vw;
-			max-height: 90vh;
-			object-fit: contain;
-			border-radius: 12px;
-			box-shadow: 0 20px 80px rgba(0, 0, 0, 0.6);
-			animation: lbIn .25s ease;
-		}
-
-		@keyframes lbIn {
-			from {
-				opacity: 0;
-				transform: scale(.92);
-			}
-
-			to {
-				opacity: 1;
-				transform: scale(1);
-			}
-		}
-
-		#lightbox-close {
-			position: fixed;
-			top: 20px;
-			right: 24px;
-			color: white;
-			font-size: 2.2rem;
-			cursor: pointer;
-			background: rgba(255, 255, 255, 0.15);
-			border: none;
-			width: 48px;
-			height: 48px;
-			border-radius: 50%;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			transition: background .2s;
-			line-height: 1;
-		}
-
-		#lightbox-close:hover {
-			background: rgba(255, 255, 255, 0.3);
-		}
-
-		#lightbox-prev,
-		#lightbox-next {
-			position: fixed;
-			top: 50%;
-			transform: translateY(-50%);
-			color: white;
-			font-size: 1.6rem;
-			cursor: pointer;
-			background: rgba(255, 255, 255, 0.15);
-			border: none;
-			width: 48px;
-			height: 48px;
-			border-radius: 50%;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			transition: background .2s;
-		}
-
-		#lightbox-prev {
-			left: 16px;
-		}
-
-		#lightbox-next {
-			right: 16px;
-		}
-
-		#lightbox-prev:hover,
-		#lightbox-next:hover {
-			background: rgba(255, 255, 255, 0.3);
-		}
-
-		#lightbox-caption {
-			position: fixed;
-			bottom: 20px;
-			left: 50%;
-			transform: translateX(-50%);
-			color: white;
-			font-size: 0.9rem;
-			font-weight: 700;
-			background: rgba(0, 0, 0, 0.5);
-			padding: 6px 18px;
-			border-radius: 20px;
-			white-space: nowrap;
-		}
-
 		/* ===== PENJUAL ===== */
 		.penjual-section {
 			background: var(--white);
@@ -1788,32 +1656,32 @@
 					<p class="section-sub">Lihat betapa enaknya jajanan kami langsung dari dapur!</p>
 				</div>
 				<div class="gallery-grid">
-					<div class="gallery-item" onclick="openLightbox(0)">
-						<img src="assets/img/gallery/gallery-1.webp" alt="Gallery 1"
+					<div class="gallery-item">
+						<img src="assets/img/gallery/gallery-1.webp" alt=""
 							onerror="this.style.display='none'; this.parentElement.style.fontSize='4rem'; this.parentElement.innerHTML='🐙'" />
 					</div>
-					<div class="gallery-item" onclick="openLightbox(1)">
-						<img src="assets/img/gallery/gallery-2.webp" alt="Gallery 2"
+					<div class="gallery-item">
+						<img src="assets/img/gallery/gallery-2.webp" alt=""
 							onerror="this.style.display='none'; this.parentElement.innerHTML='🐟'" />
 					</div>
-					<div class="gallery-item" onclick="openLightbox(2)">
-						<img src="assets/img/gallery/gallery-3.webp" alt="Gallery 3"
+					<div class="gallery-item">
+						<img src="assets/img/gallery/gallery-3.webp" alt=""
 							onerror="this.style.display='none'; this.parentElement.innerHTML='🍢'" />
 					</div>
-					<div class="gallery-item" onclick="openLightbox(3)">
-						<img src="assets/img/gallery/gallery-4.webp" alt="Gallery 4"
+					<div class="gallery-item">
+						<img src="assets/img/gallery/gallery-4.webp" alt=""
 							onerror="this.style.display='none'; this.parentElement.innerHTML='🍜'" />
 					</div>
-					<div class="gallery-item" onclick="openLightbox(4)">
-						<img src="assets/img/gallery/gallery-5.webp" alt="Gallery 5"
+					<div class="gallery-item">
+						<img src="assets/img/gallery/gallery-5.webp" alt=""
 							onerror="this.style.display='none'; this.parentElement.innerHTML='🍹'" />
 					</div>
-					<div class="gallery-item" onclick="openLightbox(5)">
-						<img src="assets/img/gallery/gallery-6.webp" alt="Gallery 6"
+					<div class="gallery-item">
+						<img src="assets/img/gallery/gallery-6.webp" alt=""
 							onerror="this.style.display='none'; this.parentElement.innerHTML='🔥'" />
 					</div>
-					<div class="gallery-item" onclick="openLightbox(6)">
-						<img src="assets/img/gallery/gallery-7.webp" alt="Gallery 7"
+					<div class="gallery-item">
+						<img src="assets/img/gallery/gallery-7.webp" alt=""
 							onerror="this.style.display='none'; this.parentElement.innerHTML='😋'" />
 					</div>
 				</div>
@@ -1911,15 +1779,6 @@
 		</section>
 	</main>
 
-	<!-- LIGHTBOX -->
-	<div id="lightbox" onclick="closeLightboxOnBg(event)">
-		<button id="lightbox-close" onclick="closeLightbox()" title="Tutup">✕</button>
-		<button id="lightbox-prev" onclick="changeLightbox(-1)" title="Sebelumnya">‹</button>
-		<img id="lightbox-img" src="" alt="" />
-		<button id="lightbox-next" onclick="changeLightbox(1)" title="Berikutnya">›</button>
-		<div id="lightbox-caption"></div>
-	</div>
-
 	<!-- FOOTER -->
 	<footer id="footer">
 		<div class="footer-inner">
@@ -1998,75 +1857,6 @@
 				}
 			});
 		}
-
-		// ===== LIGHTBOX =====
-		const galleryImages = [{
-				src: 'assets/img/gallery/gallery-1.webp',
-				caption: 'Gallery 1 – Nyah Nur'
-			},
-			{
-				src: 'assets/img/gallery/gallery-2.webp',
-				caption: 'Gallery 2 – Nyah Nur'
-			},
-			{
-				src: 'assets/img/gallery/gallery-3.webp',
-				caption: 'Gallery 3 – Nyah Nur'
-			},
-			{
-				src: 'assets/img/gallery/gallery-4.webp',
-				caption: 'Gallery 4 – Nyah Nur'
-			},
-			{
-				src: 'assets/img/gallery/gallery-5.webp',
-				caption: 'Gallery 5 – Nyah Nur'
-			},
-			{
-				src: 'assets/img/gallery/gallery-6.webp',
-				caption: 'Gallery 6 – Nyah Nur'
-			},
-			{
-				src: 'assets/img/gallery/gallery-7.webp',
-				caption: 'Gallery 7 – Nyah Nur'
-			},
-		];
-		let currentIndex = 0;
-
-		function openLightbox(index) {
-			currentIndex = index;
-			const lb = document.getElementById('lightbox');
-			const img = document.getElementById('lightbox-img');
-			const caption = document.getElementById('lightbox-caption');
-			img.src = galleryImages[index].src;
-			caption.textContent = (index + 1) + ' / ' + galleryImages.length;
-			lb.classList.add('active');
-			document.body.style.overflow = 'hidden';
-		}
-
-		function closeLightbox() {
-			document.getElementById('lightbox').classList.remove('active');
-			document.body.style.overflow = '';
-		}
-
-		function closeLightboxOnBg(e) {
-			if (e.target === document.getElementById('lightbox')) closeLightbox();
-		}
-
-		function changeLightbox(dir) {
-			currentIndex = (currentIndex + dir + galleryImages.length) % galleryImages.length;
-			const img = document.getElementById('lightbox-img');
-			const caption = document.getElementById('lightbox-caption');
-			img.src = galleryImages[currentIndex].src;
-			caption.textContent = (currentIndex + 1) + ' / ' + galleryImages.length;
-		}
-
-		// Keyboard navigation
-		document.addEventListener('keydown', e => {
-			const lb = document.getElementById('lightbox');
-			if (!lb.classList.contains('active')) return;
-			if (e.key === 'Escape') closeLightbox();
-			if (e.key === 'ArrowLeft') changeLightbox(-1);
-			if (e.key === 'ArrowRight') changeLightbox(1);
-		});
 
 		// Scroll top button
 		window.addEventListener('scroll', () => {
