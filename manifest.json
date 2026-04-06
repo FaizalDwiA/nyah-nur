@@ -1,0 +1,26 @@
+{
+  "name": "Nyah Nur – Takoyaki, Pempek & Jajanan Favorit Sukoharjo",
+  "short_name": "Nyah Nur",
+  "description": "Jajanan enak harga rakyat mulai Rp 2.000. Buka setiap hari 11.00–20.00 WIB.",
+  "start_url": "/nyah-nur/",
+  "scope": "/nyah-nur/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFFDF9",
+  "theme_color": "#D4821A",
+  "lang": "id",
+  "icons": [
+    {
+      "src": "assets/img/logo/Logo Nyah Nur.webp",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/logo/Logo Nyah Nur.webp",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
